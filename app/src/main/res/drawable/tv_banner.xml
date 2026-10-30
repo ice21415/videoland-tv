@@ -1,0 +1,7 @@
+<!-- The bitmap and insets yield a 320 x 180 dp canvas, preserving logo proportions. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape><solid android:color="#151923" /></shape></item>
+    <item android:left="24dp" android:right="24dp" android:top="66dp" android:bottom="66dp">
+        <bitmap android:src="@drawable/videoland_wordmark" android:gravity="center" android:filter="true" />
+    </item>
+</layer-list>

@@ -1,0 +1,22 @@
+name: 電視相容性問題
+description: 回報安裝、遙控器或播放問題，請勿提供個資。
+body:
+  - type: input
+    id: device
+    attributes:
+      label: 電視／盒子品牌與型號
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android 版本及 App 版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重現步驟與錯誤碼
+      description: 請勿提供手機資料、帳密、token、cookie 或登入回呼網址。
+    validations:
+      required: true

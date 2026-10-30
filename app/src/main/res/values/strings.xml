@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">體育賽事 TV（非官方）</string>
+    <string name="tab_schedule">即時賽程</string>
+    <string name="tab_banners">精選橫幅</string>
+    <string name="tab_categories">賽事分類</string>
+    <string name="tab_web">官方資訊</string>
+    <string name="tab_account">會員專區</string>
+    
+    <string name="status_loading">正在載入官方服務數據...</string>
+    <string name="status_no_data">目前無相關賽程資料</string>
+    <string name="btn_refresh">重新整理</string>
+    <string name="btn_login">會員登入</string>
+    <string name="btn_logout">登出帳號</string>
+    <string name="btn_play">立即播放</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_confirm">確認</string>
+    
+    <string name="hint_username">請輸入會員帳號 / 信箱</string>
+    <string name="hint_password">請輸入會員密碼</string>
+    <string name="login_title">緯來會員登入</string>
+    <string name="login_desc">請輸入您在緯來電視網官方註冊之帳號密碼</string>
+    <string name="login_success">登入成功！已驗證會員授權</string>
+    <string name="login_failed">登入失敗，請確認帳號或密碼</string>
+    <string name="vip_active">VIP 訂閱有效</string>
+    <string name="vip_inactive">尚未開通 VIP</string>
+    <string name="user_guest">訪客未登入 (可瀏覽公開賽程與橫幅)</string>
+    <string name="user_logged_in">會員：%1$s</string>
+    
+    <string name="player_title">賽事播放</string>
+    <string name="drm_protected">Widevine DRM 加密授權</string>
+    <string name="playback_hint">按遙控器【返回鍵】退出播放，【確認鍵】暫停/播放</string>
+</resources>

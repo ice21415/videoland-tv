@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" android:background="@drawable/bg_card_selector" android:clickable="true" android:focusable="true" android:orientation="vertical" android:padding="10dp" android:descendantFocusability="blocksDescendants">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="116dp">
+        <ImageView android:id="@+id/iv_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:background="@color/bg_surface" android:importantForAccessibility="no" />
+        <TextView android:id="@+id/tv_play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:background="@color/bg_dark" android:gravity="center" android:text="按【確認鍵】進入直播 / 詳情" android:textColor="@color/text_primary" android:textSize="12sp" android:layout_gravity="top|start" android:layout_marginStart="6dp" android:paddingHorizontal="8dp" android:paddingVertical="4dp" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal">
+        <TextView android:id="@+id/tv_league" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="2026-27 例行賽" android:textColor="@color/text_secondary" android:textSize="12sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#2E3342" android:paddingHorizontal="8dp" android:paddingVertical="3dp" android:text="10/30 08:00" android:textColor="@color/text_primary" android:textSize="12sp" />
+    </LinearLayout>
+    <TextView android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:ellipsize="end" android:maxLines="2" android:text="【NBA巔峰對決】騎士 vs 老鷹" android:textColor="@color/text_primary" android:textSize="17sp" android:textStyle="bold" android:minHeight="44dp" />
+</LinearLayout>

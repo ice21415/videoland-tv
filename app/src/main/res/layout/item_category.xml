@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:background="@drawable/bg_card_selector" android:clickable="true" android:focusable="true" android:orientation="vertical" android:padding="16dp" android:minHeight="114dp">
+    <TextView android:id="@+id/tv_category_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="籃球" android:textColor="@color/brand_gold" android:textSize="18sp" android:textStyle="bold" />
+    <TextView android:id="@+id/tv_subcategories" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="NBA │ TPBL │ WNBA │ FIBA" android:textColor="@color/text_secondary" android:textSize="13sp" android:lineSpacingExtra="4dp" />
+</LinearLayout>

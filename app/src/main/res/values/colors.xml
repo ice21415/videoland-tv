@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#121316</color>
+    <color name="bg_surface">#1C1E24</color>
+    <color name="bg_surface_card">#242730</color>
+    <color name="brand_gold">#F5A623</color>
+    <color name="brand_orange">#FF6B00</color>
+    <color name="focus_highlight">#FFC107</color>
+    <color name="focus_stroke">#FFD54F</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B3C0</color>
+    <color name="text_muted">#A8AFBE</color>
+    <color name="status_live">#E53935</color>
+    <color name="status_upcoming">#43A047</color>
+    <color name="transparent">#00000000</color>
+</resources>

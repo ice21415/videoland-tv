@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000000">
+    <androidx.media3.ui.PlayerView android:id="@+id/player_view" android:layout_width="match_parent" android:layout_height="match_parent" android:focusable="true" app:show_buffering="always" app:use_controller="true" />
+    <LinearLayout android:id="@+id/ll_player_overlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#88000000" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+        <TextView android:id="@+id/tv_player_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="賽事直播中" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tv_drm_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#3B4252" android:paddingHorizontal="10dp" android:paddingVertical="4dp" android:text="@string/drm_protected" android:textColor="@color/brand_gold" android:textSize="11sp" />
+        <Button android:id="@+id/btn_quality" android:layout_width="wrap_content" android:layout_height="44dp" android:paddingHorizontal="18dp" android:layout_marginStart="12dp" android:background="@drawable/bg_tab_selector" android:text="畫質：最高" android:textColor="@color/text_primary" android:textSize="14sp" android:textAllCaps="false" />
+    </LinearLayout>
+    <TextView android:id="@+id/tv_player_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:background="#AA000000" android:padding="20dp" android:textColor="@color/text_primary" android:textSize="16sp" android:visibility="gone" />
+</FrameLayout>
